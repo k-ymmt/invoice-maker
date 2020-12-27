@@ -240,13 +240,6 @@ class Invoice {
 
         this.setItems(sheet, this.workDetail.items)
 
-        // const subtotalCell = sheet.findText('小計').nextCell("next")
-        // subtotalCell.value = this.workDetail.subtotal
-        // const taxCell = sheet.findText('消費税').nextCell("next").nextCell("next")
-        // taxCell.value = this.workDetail.tax
-        // const totalCell = sheet.findText('合計金額').nextCell("next")
-        // totalCell.value = this.workDetail.total
-
         this.setRemarks(sheet, date)
     }
 
